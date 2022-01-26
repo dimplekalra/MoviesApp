@@ -15,9 +15,7 @@ export const port = process.env["port"] || 5000;
 export const host = process.env["host"] || "localhost";
 export const local_dbUri =
   process.env["local_dbUri"] || "mongodb://localhost:27017/";
-export const production_dbUri =
-  process.env["production_dbUri"] ||
-  "mongodb+srv://Movies:movies123@cluster0.zv2vp.mongodb.net/";
+
 export const read_writes =
   process.env["read_writes"] || "retryWrites=true&w=majority";
 export const database = process.env["database"] || "Movies";
